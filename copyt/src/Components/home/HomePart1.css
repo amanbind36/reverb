@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.background-image{
+    position: relative;
+    background-image: url("./Pictures/Header4.jpg");
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    z-index: -1;
+}
+.inner-container{
+    padding: 100px 400px 100px 100px;
+}
+.search-input{
+    width: 500px;
+    height: 60px;
+    font-size: 30px;
+}
+.search-icon-div{
+    background-color: white;
+    border-radius: 5px;
+    border: solid black 1px;
+    border-left: none;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.search-icon-div:hover{
+    cursor: pointer;
+}
+.margin-40{
+    margin: 40px;
+    margin-left: 0;
+}
+.flex-parmanent{
+    display: flex;
+}
+.flex-display{
+    display: flex;
+}
+.arrow-button{
+    background-color: rgb(233, 231, 231);
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: fit-content;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.arrow-button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.shadow-2side:hover{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.flex-ipad{
+    display: flex;
+}
+
+@media only screen and (max-width: 580px){
+    .flex-display{
+        display: block;
+    }
+    .search-input{
+        width: 280px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .search-icon-div{
+        border: solid black 1px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .heading1{
+        font-size: 30px;
+    }
+    .heading2{
+        font-size: 15px;
+    }
+    .margin-40{
+        margin-right: 0;
+    }
+    .para1{
+        text-align: center;
+        font-weight:bold;
+    }
+    .inner-container{
+        padding-top: 50px;
+        padding-bottom: 200px;
+    }
+    .background-image{
+        background-image: url("./Pictures/Header4rotate.jpg");
+        background-size: cover;
+    }
+    .flex-ipad{
+        display: block;
+    }
+}
+
+@media only screen and (min-width:581px) and (max-width: 900px){
+    .flex-display{
+        display: block;
+    }
+    .search-input{
+        width: 280px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .search-icon-div{
+        border: solid black 1px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .heading1{
+        font-size: 30px;
+    }
+    .heading2{
+        font-size: 15px;
+    }
+    .margin-40{
+        margin-right: 0;
+    }
+    .para1{
+        text-align: left;
+        font-weight:bold;
+        width: 400px;
+    }
+    .inner-container{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+    .margin-40{
+        margin: 10px 0 10px 0;
+    }
+}
+

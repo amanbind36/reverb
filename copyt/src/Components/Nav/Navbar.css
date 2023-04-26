@@ -1,0 +1,79 @@
+li{
+    list-style-type: none;
+}
+
+.subNav{
+    display: flex;
+    justify-content:space-around;
+    background-color: white;
+    /* width: 100%; */
+    border-bottom: solid rgb(209, 206, 206) 1px;
+    padding: 0 20px 0 20px;
+}
+.link-style{
+    text-decoration: none;
+    color: black;
+    margin: 0 5px 0 5px;
+}
+.link-style:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.subNav1{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    border-right: 1px solid rgb(202, 201, 201);
+    padding: 8px 10px 8px 0;
+}
+.subNav2{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 8px 0 8px 0;
+}
+
+
+
+
+/* Mobile */
+@media only screen and (max-width: 360px) {
+
+    .subNav{
+        display: flex;
+        justify-content:stretch;
+        background-color: white;
+        overflow-x: scroll;
+        white-space: nowrap;
+        scroll-snap-type: x mandatory;
+    }
+    .subNav1{
+        border: none;
+    }
+  }
+  
+  /* Tablet */
+  @media only screen and (min-width: 361px) and (max-width: 740px) {
+    .subNav{
+        display: flex;
+        justify-content:stretch;
+        background-color: white;
+        overflow-x: scroll;
+        white-space: nowrap;
+        scroll-snap-type: x mandatory;
+    }
+    .subNav1{
+        border: none;
+    }
+
+}  
+  
+  /* Desktop */
+  @media only screen and (min-width: 1024px) {
+    /* CSS styles for desktops */
+  }
+  
